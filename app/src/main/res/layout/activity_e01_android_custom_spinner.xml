@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".episodes.E01AndroidCustomSpinner"
+    android:padding="@dimen/_16">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e01Question"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="@dimen/_23"
+        android:entries="@array/osNames"/>
+
+    <ImageView
+        android:id="@+id/iconResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_above="@+id/result"
+        android:padding="@dimen/_48"
+        android:src="@drawable/android"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sampleText"
+        android:textSize="@dimen/f40"
+        android:gravity="center"
+        android:layout_margin="@dimen/_16"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

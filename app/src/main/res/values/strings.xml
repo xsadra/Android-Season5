@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Android-Season5</string>
+    <string name="sampleText">Sadra.at</string>
+    <string name="icon">icon</string>
+
+    <!-- 01 -->
+    <string name="E01AndroidCustomSpinner">Custom Spinner</string>
+    <string name="e01Question">which OS would you like?</string>
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="ubuntu">Ubuntu</string>
+    <string name="chromium">Chromium</string>
+    <string name="windows">Windows</string>
+    <string name="mac">Mac OS X</string>
+    <string name="e01Result">You choose %s!</string>
+
+
+    <!-- 01 -->
+    <string-array name="osNames">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>
