@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "464733100351",
+    "firebase_url": "https://test-my-code.firebaseio.com",
+    "project_id": "test-my-code",
+    "storage_bucket": "test-my-code.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464733100351:android:9e5311b0c5675459",
+        "android_client_info": {
+          "package_name": "at.sadra.apps.season5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464733100351-tl9pp8n1l7ldflk5001iuqke993q06o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASVpt2WPZSAIAyhPRuboe-0GBqgNgC-k8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
