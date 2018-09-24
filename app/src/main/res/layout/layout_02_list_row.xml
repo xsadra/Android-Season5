@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16">
+
+    <ImageView
+        android:id="@+id/filmImage"
+        android:layout_width="@dimen/_100"
+        android:layout_height="@dimen/_150"
+        android:background="@color/colorAccent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/saheb_biwi_aur_gangster_3" />
+
+    <TextView
+        android:id="@+id/filmTitle"
+        android:textStyle="bold"
+        android:textSize="@dimen/f16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/filmImage"
+        android:layout_toRightOf="@+id/filmImage"
+        android:paddingLeft="@dimen/_8"
+        android:text="@string/fSahebBiwiAurGangster3" />
+
+    <TextView
+        android:paddingLeft="@dimen/_12"
+        android:textSize="@dimen/f12"
+        android:paddingTop="@dimen/_8"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/filmDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/filmImage"
+        android:layout_below="@+id/filmTitle"
+        android:lineSpacingExtra="5dp"
+        android:layout_toEndOf="@+id/filmImage"
+        android:text="@string/fSahebBiwiAurGangster3Des"
+        android:nestedScrollingEnabled="true"
+        />
+
+</RelativeLayout>

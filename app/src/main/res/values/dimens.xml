@@ -6,4 +6,10 @@
     <dimen name="_56">56dp</dimen>
     <dimen name="_8">8dp</dimen>
     <dimen name="f40">40sp</dimen>
+    <dimen name="_100">100dp</dimen>
+    <dimen name="_150">150dp</dimen>
+    <dimen name="f16">16sp</dimen>
+    <dimen name="f12">12sp</dimen>
+    <dimen name="_12">12dp</dimen>
+    <dimen name="f22">22sp</dimen>
 </resources>
