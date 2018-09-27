@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/filmImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200"
+        android:background="@color/colorAccent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/saheb_biwi_aur_gangster_3" />
+
+    <TextView
+        android:id="@+id/filmTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filmImage"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:text="@string/fSahebBiwiAurGangster3"
+        android:padding="@dimen/_4"
+        android:textSize="@dimen/f16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:paddingLeft="@dimen/_4"
+        android:textSize="@dimen/f12"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/filmDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="@dimen/_150"
+        android:layout_below="@+id/filmTitle"
+        android:lineSpacingExtra="5dp"
+
+        android:text="@string/fSahebBiwiAurGangster3Des"
+        android:nestedScrollingEnabled="true"
+        />
+
+</RelativeLayout>

@@ -13,6 +13,11 @@
     <string name="windows">Windows</string>
     <string name="mac">Mac OS X</string>
     <string name="e01Result">You choose %s!</string>
+    <string-array name="osNames">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <!-- 01 -->
 
     <!-- 02 -->
@@ -39,14 +44,18 @@
     <string name="fSlenderMan2018">Slender Man 2018</string>
     <string name="fSlenderMan2018Des">Those Ascent of the slim mamoncillo might have been a sad time. An urban legend that quickly spiralled crazy of control much appreciated will as much assumed capacity will prey once know youngsters Furthermore settle on them insane, the thin mamoncillo finished dependent upon being cited Concerning illustration the inspiring calculate in any amount for grisly, genuine occasions.</string>
     <string name="undo">Undo</string>
-
     <!-- 02 -->
 
-
-    <string-array name="osNames">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
+    <!-- 03 -->
+    <string name="E03AndroidCustomGridView">Custom Grid View</string>
+    <string name="showName">Show Name</string>
+    <string name="showDescription">Show Description</string>
+    <string name="showImage">Show Image</string>
+    <string name="show">Show:</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="image">Image</string>
+    <string name="two">2</string>
+    <string name="col">Col:</string>
+    <!-- 03 -->
 </resources>

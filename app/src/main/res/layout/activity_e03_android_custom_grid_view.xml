@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".episodes.E03AndroidCustomGridView">
+
+    <GridView
+        android:id="@+id/movieGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/checkboxesLayout"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/_12" />
+
+    <LinearLayout
+        android:id="@+id/checkboxesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="100"
+        android:paddingVertical="@dimen/_4"
+        android:gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:paddingBottom="@dimen/_8"
+            android:paddingLeft="@dimen/_8"
+            android:paddingTop="@dimen/_8"
+            android:text="@string/show"
+            android:textColor="@color/white" />
+
+        <CheckBox
+
+            android:id="@+id/showName"
+            style="@style/movieInfoCheckBox"
+            android:onClick="onClick"
+            android:text="@string/name" />
+
+        <CheckBox
+            android:id="@+id/showDescription"
+            style="@style/movieInfoCheckBox"
+            android:onClick="onClick"
+            android:text="@string/description" />
+
+        <CheckBox
+            android:id="@+id/showImage"
+            style="@style/movieInfoCheckBox"
+            android:onClick="onClick"
+            android:text="@string/image" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:paddingBottom="@dimen/_8"
+            android:paddingLeft="@dimen/_8"
+            android:paddingTop="@dimen/_8"
+            android:text="@string/col"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/numColumns"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:paddingTop="@dimen/_4"
+            android:layout_marginRight="@dimen/_16"
+            android:layout_marginBottom="-5dp"
+            android:gravity="center"
+            android:inputType="numberSigned"
+            android:text="@string/two"
+            android:ems="1"
+            android:maxLines="1"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

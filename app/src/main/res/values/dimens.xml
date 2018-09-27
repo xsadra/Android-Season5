@@ -12,4 +12,6 @@
     <dimen name="f12">12sp</dimen>
     <dimen name="_12">12dp</dimen>
     <dimen name="f22">22sp</dimen>
+    <dimen name="_200">200dp</dimen>
+    <dimen name="_4">4dp</dimen>
 </resources>
