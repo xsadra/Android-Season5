@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/musicImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m05" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/overlay">
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/shimmerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:shimmer_animation_duration="1800"
+            app:shimmer_color="@color/overlayDark">
+
+            <TextView
+                android:id="@+id/musicSongName"
+                style="@style/musicSongName"
+                android:text="@string/mRihanna2Song" />
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+        <TextView
+            android:id="@+id/musicSingerName"
+            style="@style/musicSingerName"
+            android:layout_above="@+id/musicInfo"
+            android:text="@string/mRihanna2Name" />
+
+        <LinearLayout
+            android:id="@+id/musicInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/overlayDark">
+
+            <LinearLayout
+                android:id="@+id/musicInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_8">
+
+                <LinearLayout
+                    android:id="@+id/musicInfoLayoutView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        style="@style/musicIconInfo"
+                        android:paddingVertical="@dimen/_8"
+                        app:srcCompat="@drawable/ic_remove_red_eye_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/musicView"
+                        style="@style/musicTextInfo"
+                        android:text="@string/sampleNum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/musicInfoLayoutLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        style="@style/musicIconInfo"
+                        app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/musicLike"
+                        style="@style/musicTextInfo"
+                        android:text="@string/sampleNum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/musicInfoLayoutComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        style="@style/musicIconInfo"
+                        app:srcCompat="@drawable/ic_comment_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/musicComment"
+                        style="@style/musicTextInfo"
+                        android:text="@string/sampleNum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/musicInfoLayoutDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        style="@style/musicIconInfo"
+                        app:srcCompat="@drawable/ic_date_range_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/musicDate"
+                        style="@style/musicTextInfo"
+                        android:text="@string/sampleNum" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

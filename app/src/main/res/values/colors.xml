@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="white">#FFFFFF</color>
+    <color name="overlay">#99212121</color>
+    <color name="songName">#bdbdbd</color>
+    <color name="overlayDark">#66212121</color>
+    <color name="singerName">#caffffff</color>
 </resources>

@@ -16,4 +16,46 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <style name="musicIconInfo">
+        <item name="android:tint">@color/white</item>
+        <item name="android:paddingTop">@dimen/_8</item>
+        <item name="android:paddingBottom">@dimen/_8</item>
+        <item name="android:paddingRight">@dimen/_4</item>
+        <item name="android:paddingLeft">@dimen/_4</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="musicTextInfo">
+        <item name="android:paddingRight">@dimen/_8</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="musicSingerName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/overlayDark</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_8</item>
+        <item name="android:textColor">@color/singerName</item>
+        <item name="android:textSize">@dimen/f30</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="musicSongName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/_8</item>
+        <item name="android:textColor">@color/songName</item>
+        <item name="android:textSize">@dimen/f30</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

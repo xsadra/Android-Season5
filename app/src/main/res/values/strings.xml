@@ -58,4 +58,152 @@
     <string name="two">2</string>
     <string name="col">Col:</string>
     <!-- 03 -->
+
+    <!-- 04 -->
+    <string name="E04AndroidRecyclerView">Recycler View</string>
+
+    <string name="mLeonName">Leon</string>
+    <string name="mLeonSong">Baby Dont Talk</string>
+    <string name="mLeonView">32000088</string>
+    <string name="mLeonLike">43773</string>
+    <string name="mLeonComment">1230</string>
+    <string name="mLeonDate">02 Apr</string>
+
+    <string name="mRitaOraName">Rita Ora</string>
+    <string name="mRitaOraSong">Let You Love Me</string>
+    <string name="mRitaOraView">366</string>
+    <string name="mRitaOraLike">4</string>
+    <string name="mRitaOraComment">34</string>
+    <string name="mRitaOraDate">31 Oct</string>
+
+    <string name="mRitaOra2Name">Rita Ora</string>
+    <string name="mRitaOra2Song">Poison</string>
+    <string name="mRitaOra2View">345</string>
+    <string name="mRitaOra2Like">56</string>
+    <string name="mRitaOra2Comment">6</string>
+    <string name="mRitaOra2Date">04 May</string>
+
+    <string name="mRihannaName">Rihanna</string>
+    <string name="mRihannaSong">Just Feel It</string>
+    <string name="mRihannaView">4887</string>
+    <string name="mRihannaLike">745</string>
+    <string name="mRihannaComment">3</string>
+    <string name="mRihannaDate">09 Sep</string>
+
+    <string name="mRihanna2Name">Rihanna</string>
+    <string name="mRihanna2Song">American Oxygen</string>
+    <string name="mRihanna2View">346</string>
+    <string name="mRihanna2Like">35</string>
+    <string name="mRihanna2Comment">5</string>
+    <string name="mRihanna2Date">12 Sep</string>
+
+    <string name="mRitaOra3Name">Rita Ora</string>
+    <string name="mRitaOra3Song">Shine Ya Light</string>
+    <string name="mRitaOra3View">346</string>
+    <string name="mRitaOra3Like">0</string>
+    <string name="mRitaOra3Comment">0</string>
+    <string name="mRitaOra3Date">19 Dec</string>
+
+    <string name="mMoName">Mo</string>
+    <string name="mMoSong">Imaginary Friend</string>
+    <string name="mMoView">678</string>
+    <string name="mMoLike">34</string>
+    <string name="mMoComment">21</string>
+    <string name="mMoDate">03 Feb</string>
+
+    <string name="mAllieXName">Allie X</string>
+    <string name="mAllieXSong">Little Things</string>
+    <string name="mAllieXView">645</string>
+    <string name="mAllieXLike">5</string>
+    <string name="mAllieXComment">0</string>
+    <string name="mAllieXDate">04 Feb</string>
+
+    <string name="mKeshaName">Kesha</string>
+    <string name="mKeshaSong">Here Comes The Change</string>
+    <string name="mKeshaView">243</string>
+    <string name="mKeshaLike">0</string>
+    <string name="mKeshaComment">0</string>
+    <string name="mKeshaDate">08 Jul</string>
+
+    <string name="mAvrilLavigneName">Avril Lavigne</string>
+    <string name="mAvrilLavigneSong">Head Above Water</string>
+    <string name="mAvrilLavigneView">456</string>
+    <string name="mAvrilLavigneLike">344</string>
+    <string name="mAvrilLavigneComment">1</string>
+    <string name="mAvrilLavigneDate">30 Jun</string>
+
+    <string name="mJojoName">Jojo</string>
+    <string name="mJojoSong">Dont Give Out My Love</string>
+    <string name="mJojoView">5765</string>
+    <string name="mJojoLike">2</string>
+    <string name="mJojoComment">0</string>
+    <string name="mJojoDate">01 Feb</string>
+
+    <string name="mLanaDelReyName">Lana Del Rey</string>
+    <string name="mLanaDelReySong">Mariners Apartment Complex</string>
+    <string name="mLanaDelReyView">8001</string>
+    <string name="mLanaDelReyLike">7887</string>
+    <string name="mLanaDelReyComment">568</string>
+    <string name="mLanaDelReyDate">25 May</string>
+
+    <string name="mCharliePuthName">Charlie Puth</string>
+    <string name="mCharliePuthSong">Love Game</string>
+    <string name="mCharliePuthView">532</string>
+    <string name="mCharliePuthLike">235</string>
+    <string name="mCharliePuthComment">234</string>
+    <string name="mCharliePuthDate">17 Sep</string>
+
+    <string name="mChrisBrownName">Chris Brown</string>
+    <string name="mChrisBrownSong">Alone</string>
+    <string name="mChrisBrownView">533</string>
+    <string name="mChrisBrownLike">343</string>
+    <string name="mChrisBrownComment">1</string>
+    <string name="mChrisBrownDate">29 Jun</string>
+
+    <string name="mInnaName">Inna</string>
+    <string name="mInnaSong">Ra</string>
+    <string name="mInnaView">987</string>
+    <string name="mInnaLike">6</string>
+    <string name="mInnaComment">456</string>
+    <string name="mInnaDate">13 Jul</string>
+
+    <string name="mCarlyRaeJepsenName">Carly Rae Jepsen</string>
+    <string name="mCarlyRaeJepsenSong">Hey Boy</string>
+    <string name="mCarlyRaeJepsenView">4664</string>
+    <string name="mCarlyRaeJepsenLike">456</string>
+    <string name="mCarlyRaeJepsenComment">84</string>
+    <string name="mCarlyRaeJepsenDate">27</string>
+
+    <string name="mChrisBrown2Name">Chris Brown</string>
+    <string name="mChrisBrown2Song">All In</string>
+    <string name="mChrisBrown2View">436</string>
+    <string name="mChrisBrown2Like">67</string>
+    <string name="mChrisBrown2Comment">87</string>
+    <string name="mChrisBrown2Date">13 Jul</string>
+
+    <string name="mPiaMiaName">Pia Mia</string>
+    <string name="mPiaMiaSong">Bounce</string>
+    <string name="mPiaMiaView">567</string>
+    <string name="mPiaMiaLike">4</string>
+    <string name="mPiaMiaComment">5</string>
+    <string name="mPiaMiaDate">06 May</string>
+
+    <string name="mRitaOra4Name">Rita Ora</string>
+    <string name="mRitaOra4Song">Run It Back</string>
+    <string name="mRitaOra4View">3453</string>
+    <string name="mRitaOra4Like">445</string>
+    <string name="mRitaOra4Comment">345</string>
+    <string name="mRitaOra4Date">29 Des</string>
+
+    <string name="mCharliXcxFtRitaOraName">Charli Xcx Ft. Rita Ora</string>
+    <string name="mCharliXcxFtRitaOraSong">Doing It</string>
+    <string name="mCharliXcxFtRitaOraView">94565</string>
+    <string name="mCharliXcxFtRitaOraLike">24233</string>
+    <string name="mCharliXcxFtRitaOraComment">3765</string>
+    <string name="mCharliXcxFtRitaOraDate">3 Feb</string>
+    <string name="sampleNum">123</string>
+
+    <!-- 04 -->
+
+
 </resources>

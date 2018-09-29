@@ -14,4 +14,7 @@
     <dimen name="f22">22sp</dimen>
     <dimen name="_200">200dp</dimen>
     <dimen name="_4">4dp</dimen>
+    <dimen name="_300">300dp</dimen>
+    <dimen name="f30">30sp</dimen>
+    <dimen name="f20">20sp</dimen>
 </resources>
