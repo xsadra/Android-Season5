@@ -19,11 +19,12 @@
         <activity
             android:name=".episodes.E04AndroidRecyclerViewItemActivity"
             android:theme="@style/Theme.Design.NoActionBar" />
-        <activity android:name=".episodes.E05AndroidTabWidget"/>
+        <activity android:name=".episodes.E05AndroidTabWidget" />
         <activity
             android:name=".episodes.E06AndroidBasicActivity"
             android:label="@string/title_activity_e06_android_basic"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".episodes.E07AndroidActionbarActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
