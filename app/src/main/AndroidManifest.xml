@@ -15,16 +15,17 @@
         <activity android:name=".episodes.E03AndroidCustomGridView" />
         <activity
             android:name=".episodes.E04AndroidRecyclerView"
-            android:theme="@style/Theme.Design.NoActionBar">
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".episodes.E04AndroidRecyclerViewItemActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".episodes.E05AndroidTabWidget">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".episodes.E04AndroidRecyclerViewItemActivity"
-            android:theme="@style/Theme.Design.NoActionBar"></activity>
     </application>
 
 </manifest>
